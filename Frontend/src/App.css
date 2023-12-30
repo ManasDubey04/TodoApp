@@ -1,0 +1,141 @@
+
+
+/* App.css */
+
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.add {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add:hover {
+  background-color: #45a049;
+}
+
+.lst {
+  text-align: left;
+}
+
+.ToDo {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ToDo .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.ToDo .actions button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ToDo .actions button.delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.ToDo .actions button.delete:hover {
+  background-color: #d32f2f;
+}
+
+.ToDo .actions button.update {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.ToDo .actions button.update:hover {
+  background-color: #1976d2;
+}
+
+
+/* ToDo.css */
+
+.todo {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.todo:hover {
+  background-color: #eaeaea;
+}
+
+.todo .text {
+  flex: 1;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.todo .icons {
+  display: flex;
+  gap: 10px;
+}
+
+.todo .icons .icon {
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.todo .icons .icon:hover {
+  color: #333;
+}
+
